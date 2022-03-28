@@ -51,3 +51,97 @@
     font-size: 70px;
     z-index: 100;
 }
+
+/*RESPONSIVO*/
+
+@media (min-width: 1300px){
+    [wm-flappy] {
+        position: relative;
+        border: 5px solid dodgerblue;
+        height: 500px;
+        width: 70%;
+        margin: 1rem 0 1rem 12rem;
+        background-color: deepskyblue;
+        overflow: hidden;
+    }
+}
+
+@media (max-width: 1000px){
+    [wm-flappy] {
+        position: relative;
+        border: 5px solid dodgerblue;
+        height: 500px;
+        width: 60%;
+        margin: 1rem 0 1rem 12rem;
+        background-color: deepskyblue;
+        overflow: hidden;
+    }
+}
+
+@media (max-width: 800px){
+    [wm-flappy] {
+        position: relative;
+        border: 5px solid dodgerblue;
+        height: 500px;
+        width: 75%;
+        margin: 1rem 0 1rem 6rem;
+        background-color: deepskyblue;
+        overflow: hidden;
+    }
+}
+
+@media (max-width: 600px){
+    [wm-flappy] {
+        position: relative;
+        border: 5px solid dodgerblue;
+        height: 500px;
+        width: 80%;
+        margin: 1rem 0 1rem 4rem;
+        background-color: deepskyblue;
+        overflow: hidden;
+    }
+}
+
+@media (max-width: 500px){
+    [wm-flappy] {
+        position: relative;
+        border: 5px solid dodgerblue;
+        height: 400px;
+        width: 80%;
+        margin: 1rem 0 1rem 4rem;
+        background-color: deepskyblue;
+        overflow: hidden;
+    }
+}
+
+@media (max-width: 420px){
+    [wm-flappy] {
+        position: relative;
+        border: 5px solid dodgerblue;
+        height: 400px;
+        width: 80%;
+        margin: 1rem 0 1rem 3rem;
+        background-color: deepskyblue;
+        overflow: hidden;
+    }
+}
+
+@media (max-width: 360px){
+    [wm-flappy] {
+        position: relative;
+        border: 5px solid dodgerblue;
+        height: 400px;
+        width: 80%;
+        margin: 1rem 0 1rem 2.4rem;
+        background-color: deepskyblue;
+        overflow: hidden;
+    }
+    .progresso {
+        position: absolute;
+        top: 10px;
+        right: 10px;
+        font-size: 50px;
+        z-index: 100;
+    }
+}
+    
